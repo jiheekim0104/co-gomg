@@ -28,6 +28,64 @@
 <h2>1월 1일</h2>
 
 <h2>오늘은 <u>2023년 1월 1일</u></h2>
+<h1> comparison operators & boolean </h1>
+<h2> === </h2>
+<h3> 1===1</h3>
+<script>
+document.write(1===1);
+</script>
 
+<h3> 1===2</h3>
+<script>
+  document.write(1===2);
+  </script>
+
+<br><br>number(inf) / string(inf) / boolean(2)
+
+<h3> 1&lt;2</h3>
+<script>
+  document.write(1<2);
+  </script>
+
+<h3> 1&lt;1</h3>
+<script>
+  document.write(1<1);
+  </script>
+
+<h1> conditional statements </h1>
+<h2> program </h2>
+<script>
+  document.write("1<br>");
+  if(true){
+  document.write("2<br>");
+  }else{
+  document.write("3<br>");
+  }
+  document.write("4<br>");
+</script>
+
+<script>
+  document.write("1<br>");
+  if(false){
+  document.write("2<br>");
+  }else{
+  document.write("3<br>");
+  }
+  document.write("4<br>");
+</script>
+<br><br> if 뒤에오는 boolean값에 따라 바뀐다!!
+<br>
+
+<input id="night_day" type="button" value="night" onclick="
+if(document.querySelector('#night_day').value === 'night'){
+document.querySelector('body').style.backgroundColor='black';
+document.querySelector('body').style.color ='white';
+document.querySelector('#night_day').value = 'day' ;
+} else {
+document.querySelector('body').style.backgroundColor='white';
+document.querySelector('body').style.color='black';
+document.querySelector('#night_day').value = 'night' ;
+}">
+<br> 헐퀴.. 이거 어렵다 다시 해봐라 ㅇㅅㅇ;;;; <br>
 </body>
 </html>

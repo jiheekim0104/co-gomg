@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title> </title>
+</head>
+<body>
+
+<input type="button" value="검정배경" onclick="
+document.querySelector('body').style.backgroundColor='black';
+document.querySelector('body').style.color='white';
+">
+
+<input type="button" value="파란배경" onclick="
+document.querySelector('body').style.backgroundColor='blue';
+document.querySelector('body').style.color='white';
+">
+
+
+<input id="배경" type="button" value="검정배경" onclick="
+if(document.querySelector('#배경').value === '검정배경'){
+    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';
+    document.querySelector('#배경').value = '파란배경';}
+else{
+    document.querySelector('#배경').value === '파란배경'
+    document.querySelector('body').style.backgroundColor='blue';
+    document.querySelector('body').style.color='white';
+    document.querySelector('#배경').value = '검정배경';
+    }
+">
+
+<br> 24 & 29 번 이해가 잘안되뮤...ㅠㅠ 속상하다 씨앙 ㅋ
+
+
+</body>
+
+</html>
